@@ -3,7 +3,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    grid-area: link; 
+    grid-area: link;
     text-decoration: none;
 }
 .place__link:hover{
