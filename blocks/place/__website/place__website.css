@@ -1,0 +1,5 @@
+.place__website {
+    padding: 0 16px;
+    justify-self: start;
+    align-self: flex-end;
+}
