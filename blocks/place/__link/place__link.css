@@ -4,7 +4,6 @@
     font-size: 18px;
     line-height: 22px;
     grid-area: link;
-    text-decoration: none;
 }
 .place__link:hover{
     opacity: 0.5;
