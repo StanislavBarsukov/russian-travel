@@ -3,3 +3,8 @@
     justify-self: start;
     align-self: flex-end;
 }
+@media screen and (min-width: 768px) {
+    .place__website {
+        padding: 0;
+    }
+}

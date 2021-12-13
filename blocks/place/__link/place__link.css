@@ -4,7 +4,8 @@
     font-size: 18px;
     line-height: 22px;
     grid-area: link;
+    transition: opacity 1s ease-in-out;
 }
 .place__link:hover{
-    opacity: 0.5;
+    opacity: 0.8;
 }

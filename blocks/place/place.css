@@ -12,9 +12,10 @@
 @media screen and (min-width: 768px) {
   .place {
     margin-top: 73px;
-    grid-template-areas: "title link"
-                        "pic text";
-    grid-template-columns:repeat(auto-fit,minmax(340px, 1fr) minmax(352px, 1fr));
+    grid-template-areas:
+     "title link"
+     "pic text";
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
     row-gap: 48px;
   }
@@ -22,14 +23,13 @@
 @media screen and (min-width: 1024px) {
   .place {
     margin-top: 80px;
-    grid-template-columns:repeat(auto-fit,minmax(440px, 1fr) minmax(456px, 1fr));
     column-gap: 32px;
-    
+    grid-template-columns: 440px 1fr;
   }
 }
 @media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns:repeat(auto-fit,minmax(460px, 1fr) minmax(484px, 1fr));
     column-gap: 40px;
+    grid-template-columns: 460px 1fr;
   }
 }
